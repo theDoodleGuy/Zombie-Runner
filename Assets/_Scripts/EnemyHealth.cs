@@ -11,5 +11,10 @@ public class EnemyHealth : MonoBehaviour
     {
         hitPoints -= damage;
         print("Enemy hp = " + hitPoints);
+
+        if (hitPoints <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }
