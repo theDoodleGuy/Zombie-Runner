@@ -46,6 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FPCamera: {fileID: 2067920386699708607}
   range: 100
+  damage: 10
 --- !u!1 &2067920386700954265
 GameObject:
   m_ObjectHideFlags: 0
